@@ -17,15 +17,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		echo "is positive \n";
+		echo("%i is positive \n", n);
 	}
 	else if (n == 0)
 	{
-		echo "is zero \n ";
+		echo("%i is zero \n ", n);
 	}
 	else
 	{
-		echo "is negative \n"
+		echo("%i is negative \n", n);
 	}
 	return (0);
 }
