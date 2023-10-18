@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- *  _strlen - length of string
+ * _puts - print string with new line at the end
  *
- *  @s: the string
+ * @str: string
  *
- *  Return: length
+ * Return: void
 */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int count;
-
-	for (count = 0; *s != '\0'; s++)
-		++count;
-
-	return (count);
+	while (*str != '\0')
+	{
+		_putchar(*str + 0);
+		str++;
+	}
+	_putchar('\n');
 }
