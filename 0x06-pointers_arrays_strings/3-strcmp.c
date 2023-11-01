@@ -3,10 +3,10 @@
  * _strcmp - compare two strings
  * @s1: first string
  * @s2: second one
- * Return: 
- * 		zero if same size
- * 		negative if s1 < s2
- * 		positive if s1 > s2
+ * Return:
+ * zero if same size
+ * negative if s1 < s2
+ * positive if s1 > s2
  */
 int _strcmp(char *s1, char *s2)
 {
